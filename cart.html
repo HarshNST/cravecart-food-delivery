@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - CraveCart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-utensils"></i>
+                <span>CraveCart</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="restaurants.html"><i class="fas fa-utensils"></i> Restaurants</a></li>
+                    <li><a href="cart.html" class="active"><i class="fas fa-shopping-cart"></i> Cart <span class="cart-count">2</span></a></li>
+                    <li><a href="track-order.html"><i class="fas fa-map-marker-alt"></i> Track Order</a></li>
+                    <li><a href="login.html"><i class="fas fa-user"></i> Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Your Cart</h1>
+            <p>Review your order before checkout</p>
+        </div>
+    </section>
+
+    <section class="cart">
+        <div class="container">
+            <div class="cart-container">
+                <div class="cart-items">
+                    <div class="cart-item">
+                        <div class="cart-item-img" style="background-image: url('https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80')"></div>
+                        <div class="cart-item-details">
+                            <h4 class="cart-item-name">Butter Chicken</h4>
+                            <p class="cart-item-restaurant">Spice Garden</p>
+                            <p class="cart-item-price"><span class="rupee">₹</span>320</p>
+                            <div class="cart-item-quantity">
+                                <button class="quantity-btn">-</button>
+                                <span>1</span>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                        </div>
+                        <div class="cart-item-actions">
+                            <button class="cart-item-remove">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="cart-item-img" style="background-image: url('https://images.unsplash.com/photo-1565299507177-b0ac66763828?ixlib=rb-4.0.3&auto=format&fit=crop&w=722&q=80')"></div>
+                        <div class="cart-item-details">
+                            <h4 class="cart-item-name">Garlic Naan</h4>
+                            <p class="cart-item-restaurant">Spice Garden</p>
+                            <p class="cart-item-price"><span class="rupee">₹</span>60</p>
+                            <div class="cart-item-quantity">
+                                <button class="quantity-btn">-</button>
+                                <span>2</span>
+                                <button class="quantity-btn">+</button>
+                            </div>
+                        </div>
+                        <div class="cart-item-actions">
+                            <button class="cart-item-remove">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-summary">
+                    <h3>Order Summary</h3>
+                    <div class="summary-item">
+                        <span>Subtotal:</span>
+                        <span class="rupee">₹440</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Delivery Fee:</span>
+                        <span class="rupee">₹40</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Tax (5%):</span>
+                        <span class="rupee">₹22</span>
+                    </div>
+                    <div class="summary-item total">
+                        <span>Total:</span>
+                        <span class="rupee">₹502</span>
+                    </div>
+                    <button class="btn btn-primary btn-block">Proceed to Checkout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>CraveCart</h3>
+                    <p>Delivering happiness to your doorstep with the best food from top restaurants.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Partner with us</a></li>
+                        <li><a href="#">Ride with us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 CraveCart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

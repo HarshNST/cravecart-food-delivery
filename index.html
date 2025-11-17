@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraveCart - Food Delivery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-utensils"></i>
+                <span>CraveCart</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="restaurants.html"><i class="fas fa-utensils"></i> Restaurants</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart <span class="cart-count">0</span></a></li>
+                    <li><a href="track-order.html"><i class="fas fa-map-marker-alt"></i> Track Order</a></li>
+                    <li><a href="login.html"><i class="fas fa-user"></i> Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Delicious Food Delivered to Your Door</h1>
+            <p>Order from your favorite restaurants and get it delivered in minutes</p>
+            <div class="location-search">
+                <input type="text" placeholder="Enter your delivery location">
+                <button class="btn btn-primary">Find Food</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Choose Location</h3>
+                    <p>Enter your address to find restaurants near you</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Order Food</h3>
+                    <p>Browse menus and place your order</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Fast Delivery</h3>
+                    <p>Get your food delivered quickly</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Easy Payment</h3>
+                    <p>Pay with cash, card, or digital wallet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="restaurants">
+        <div class="container">
+            <h2 class="section-title">Popular Restaurants</h2>
+            <div class="restaurants-grid">
+                <div class="restaurant-card">
+                    <div class="restaurant-img" style="background-image: url('https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=781&q=80')"></div>
+                    <div class="restaurant-info">
+                        <h3 class="restaurant-name">Spice Garden</h3>
+                        <p class="restaurant-cuisine">North Indian, Chinese</p>
+                        <div class="restaurant-rating">
+                            <div class="rating">
+                                <i class="fas fa-star"></i> 4.5
+                            </div>
+                            <span>• 35 mins</span>
+                        </div>
+                        <p class="price"><span class="rupee">₹</span>300 for two</p>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-img" style="background-image: url('https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-4.0.3&auto=format&fit=crop&w=765&q=80')"></div>
+                    <div class="restaurant-info">
+                        <h3 class="restaurant-name">Burger Junction</h3>
+                        <p class="restaurant-cuisine">Burgers, Fast Food</p>
+                        <div class="restaurant-rating">
+                            <div class="rating">
+                                <i class="fas fa-star"></i> 4.2
+                            </div>
+                            <span>• 25 mins</span>
+                        </div>
+                        <p class="price"><span class="rupee">₹</span>400 for two</p>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-img" style="background-image: url('https://images.unsplash.com/photo-1563379091339-03246963d96f?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80')"></div>
+                    <div class="restaurant-info">
+                        <h3 class="restaurant-name">Pizza Palace</h3>
+                        <p class="restaurant-cuisine">Pizza, Italian</p>
+                        <div class="restaurant-rating">
+                            <div class="rating">
+                                <i class="fas fa-star"></i> 4.7
+                            </div>
+                            <span>• 30 mins</span>
+                        </div>
+                        <p class="price"><span class="rupee">₹</span>500 for two</p>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <div class="restaurant-img" style="background-image: url('https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80')"></div>
+                    <div class="restaurant-info">
+                        <h3 class="restaurant-name">Sushi Express</h3>
+                        <p class="restaurant-cuisine">Japanese, Sushi</p>
+                        <div class="restaurant-rating">
+                            <div class="rating">
+                                <i class="fas fa-star"></i> 4.4
+                            </div>
+                            <span>• 40 mins</span>
+                        </div>
+                        <p class="price"><span class="rupee">₹</span>800 for two</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="restaurants.html" class="btn btn-outline">View All Restaurants</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>CraveCart</h3>
+                    <p>Delivering happiness to your doorstep with the best food from top restaurants.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="#">Help & Support</a></li>
+                        <li><a href="#">Partner with us</a></li>
+                        <li><a href="#">Ride with us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 CraveCart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple cart count update
+        document.querySelector('.location-search button').addEventListener('click', function() {
+            const location = document.querySelector('.location-search input').value;
+            if(location) {
+                alert('Finding restaurants near: ' + location);
+            } else {
+                alert('Please enter your location');
+            }
+        });
+    </script>
+</body>
+</html>
